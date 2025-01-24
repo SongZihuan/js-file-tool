@@ -34,8 +34,8 @@
     "lint": "eslint --ext .js,.mjs,.cjs,.ts --fix .",
     "lint:debug": "eslint --ext .js,.mjs,.cjs,.ts --debug --fix .",
     "pack": "npx pnpm run init && npx pnpm run lint && npx pnpm pack",
-    "login": "npm pnpm login --registry=https://registry.npmjs.org",
-    "publish": "npm pnpm publish --registry=https://registry.npmjs.org"
+    "login": "npx pnpm login --registry=https://registry.npmjs.org",
+    "publish": "npx pnpm publish --registry=https://registry.npmjs.org"
   },
   "devDependencies": {
     "eslint": "^8.38.0",
