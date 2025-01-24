@@ -1,0 +1,48 @@
+{
+  "name": "huan-file-tool",
+  "version": "1.0.0",
+  "description": "简单的文件处理工具",
+  "private": false,
+  "keywords": [
+    "javaascript",
+    "commonjs",
+    "esmodule",
+    "nodejs",
+    "file-tool",
+    "web-demo"
+  ],
+  "main": "./src/main.cjs",
+  "module": "./src/main.mjs",
+  "exports": {
+    ".": {
+      "require": "./src/main.cjs",
+      "import": "./src/main.mjs",
+      "default": "./src/main.mjs"
+    }
+  },
+  "author": "宋子桓（Song Zihuan）",
+  "license": "MIT LICENSE",
+  "repository": "https://github.com/SongZihuan/js-file-tool",
+  "bug": "https://github.com/SongZihuan/js-file-tool/issues",
+  "homepage": "https://github.com/SongZihuan/js-file-tool",
+  "engines": {
+    "node": ">=18",
+    "pnpm": ">=8"
+  },
+  "scripts": {
+    "init": "npx pnpm install",
+    "lint": "eslint --ext .js,.mjs,.cjs,.ts --fix .",
+    "lint:debug": "eslint --ext .js,.mjs,.cjs,.ts --debug --fix .",
+    "pack": "npx pnpm run init && npx pnpm run lint && npx pnpm pack",
+    "login": "npm pnpm login --registry=https://registry.npmjs.org",
+    "publish": "npm pnpm publish --registry=https://registry.npmjs.org"
+  },
+  "devDependencies": {
+    "eslint": "^8.38.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.7"
+  },
+  "dependencies": {
+  }
+}
