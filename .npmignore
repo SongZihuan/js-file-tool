@@ -9,7 +9,6 @@ lerna-debug.log*
 
 # Node
 node_modules
-huan-simple-html-1.0.0.tgz
 .npmrc
 
 # Build
@@ -63,3 +62,6 @@ Recycle Bin
 *.sln
 *.sw?
 *.bak
+
+# Pack
+huan-*.tgz
