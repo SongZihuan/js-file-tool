@@ -13,7 +13,7 @@
 
 作者主页：[song-zh.com](https://song-zh.com)
 
-作者邮箱：songzihuan@song-zh.com
+作者邮箱：contact@song-zh.com
 
 ## 项目信息
 项目托管地址：[github.com/SongZihuan/js-file-tool](https://github.com/SongZihuan/js-file-tool)
